@@ -1,0 +1,142 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-14T05:43:09.985Z"}
+info: Connected to the database. {"timestamp":"2022-06-14T05:43:10.096Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-14T05:45:55.730Z"}
+info: Connected to the database. {"timestamp":"2022-06-14T05:45:55.750Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-14T11:33:29.722Z"}
+info: Connected to the database. {"timestamp":"2022-06-14T11:33:29.824Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token f in JSON at position 6
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:199:9)
+    at invokeCallback (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-06-14T11:35:45.387Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token f in JSON at position 6
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:199:9)
+    at invokeCallback (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-06-14T11:37:45.314Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token f in JSON at position 6
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:199:9)
+    at invokeCallback (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-06-14T11:39:43.496Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-06-14T11:40:40.286Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-14T11:43:09.550Z"}
+info: Connected to the database. {"timestamp":"2022-06-14T11:43:09.623Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-14T11:45:24.556Z"}
+info: Connected to the database. {"timestamp":"2022-06-14T11:45:24.674Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at newUserValidator (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\src\validators\/user.validator.js:16:16)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-06-14T11:51:31.977Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-14T11:53:34.697Z"}
+info: Connected to the database. {"timestamp":"2022-06-14T11:53:34.726Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-14T11:58:55.425Z"}
+info: Connected to the database. {"timestamp":"2022-06-14T11:58:55.459Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-14T11:59:37.971Z"}
+info: Connected to the database. {"timestamp":"2022-06-14T11:59:37.997Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-14T12:00:22.110Z"}
+info: Connected to the database. {"timestamp":"2022-06-14T12:00:22.142Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-14T12:00:58.369Z"}
+info: Connected to the database. {"timestamp":"2022-06-14T12:00:58.420Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-14T12:01:51.779Z"}
+info: Connected to the database. {"timestamp":"2022-06-14T12:01:51.860Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-14T12:02:08.734Z"}
+info: Connected to the database. {"timestamp":"2022-06-14T12:02:08.783Z"}
+info: Connected to the database. {"timestamp":"2022-06-14T12:02:24.132Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-14T12:04:47.843Z"}
+info: Connected to the database. {"timestamp":"2022-06-14T12:04:47.888Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-14T12:07:24.173Z"}
+info: Connected to the database. {"timestamp":"2022-06-14T12:07:24.201Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-14T12:07:47.653Z"}
+info: Connected to the database. {"timestamp":"2022-06-14T12:07:47.703Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-14T12:09:00.520Z"}
+info: Connected to the database. {"timestamp":"2022-06-14T12:09:00.560Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-14T12:56:12.691Z"}
+info: Connected to the database. {"timestamp":"2022-06-14T12:56:12.777Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-14T13:03:17.444Z"}
+info: Connected to the database. {"timestamp":"2022-06-14T13:03:17.495Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-14T13:03:24.431Z"}
+info: Connected to the database. {"timestamp":"2022-06-14T13:03:24.493Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-06-14T13:05:34.010Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-14T13:09:52.287Z"}
+info: Connected to the database. {"timestamp":"2022-06-14T13:09:52.390Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-14T13:11:23.704Z"}
+info: Connected to the database. {"timestamp":"2022-06-14T13:11:23.744Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-14T13:11:36.306Z"}
+info: Connected to the database. {"timestamp":"2022-06-14T13:11:36.389Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-14T13:12:34.570Z"}
+info: Connected to the database. {"timestamp":"2022-06-14T13:12:34.612Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-14T13:13:31.410Z"}
+info: Connected to the database. {"timestamp":"2022-06-14T13:13:31.476Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-14T13:13:40.821Z"}
+info: Connected to the database. {"timestamp":"2022-06-14T13:13:40.870Z"}

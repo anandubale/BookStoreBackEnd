@@ -1,0 +1,64 @@
+info: ::1 - - [15/Jun/2022:14:18:23 +0000] "GET /api/v1/books HTTP/1.1" 200 9282 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+
+info: ::1 - - [15/Jun/2022:14:29:45 +0000] "GET /api/v1/books HTTP/1.1" 200 9282 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+
+info: ::1 - - [15/Jun/2022:14:30:31 +0000] "GET /api/v1/books HTTP/1.1" 200 9282 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+
+info: ::1 - - [15/Jun/2022:14:31:16 +0000] "GET /api/v1/books HTTP/1.1" 200 9282 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+
+info: ::1 - - [15/Jun/2022:14:31:17 +0000] "GET /api/v1/books HTTP/1.1" 200 9282 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+
+info: ::1 - - [15/Jun/2022:14:31:46 +0000] "GET /api/v1/books HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+
+info: ::1 - - [15/Jun/2022:14:31:46 +0000] "GET /api/v1/books HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+
+info: ::1 - - [15/Jun/2022:14:33:27 +0000] "GET /api/v1/books HTTP/1.1" 200 9282 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+
+info: ::1 - - [15/Jun/2022:14:33:27 +0000] "GET /api/v1/books HTTP/1.1" 200 9282 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+
+info: ::1 - - [15/Jun/2022:14:33:31 +0000] "GET /api/v1/books HTTP/1.1" 200 9282 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+
+info: ::1 - - [15/Jun/2022:14:33:31 +0000] "GET /api/v1/books HTTP/1.1" 200 9282 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+
+info: ::1 - - [15/Jun/2022:14:34:00 +0000] "GET /api/v1/books HTTP/1.1" 200 9282 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+
+info: ::1 - - [15/Jun/2022:14:34:00 +0000] "GET /api/v1/books HTTP/1.1" 200 9282 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+
+info: ::1 - - [15/Jun/2022:14:34:03 +0000] "GET /api/v1/books HTTP/1.1" 200 9282 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+
+info: ::1 - - [15/Jun/2022:14:34:03 +0000] "GET /api/v1/books HTTP/1.1" 200 9282 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+
+info: ::1 - - [15/Jun/2022:14:37:49 +0000] "GET /api/v1/books HTTP/1.1" 200 9282 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [15/Jun/2022:18:06:23 +0000] "GET /api/v1/books HTTP/1.1" 200 9282 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [15/Jun/2022:18:06:40 +0000] "POST /api/v1/books/6214803b05253301a4fda584 HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [15/Jun/2022:18:07:15 +0000] "POST /api/v1/books/6214803b05253301a4fda584 HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [15/Jun/2022:18:07:16 +0000] "POST /api/v1/books/6214803b05253301a4fda584 HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [15/Jun/2022:18:07:18 +0000] "POST /api/v1/books/6214803b05253301a4fda584 HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [15/Jun/2022:18:08:02 +0000] "POST /api/v1/books/6214803b05253301a4fda584 HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [15/Jun/2022:18:08:10 +0000] "POST /api/v1/books/6214803b05253301a4fda584 HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [15/Jun/2022:18:08:41 +0000] "POST /api/v1/books/6214803b05253301a4fda584 HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [15/Jun/2022:18:09:35 +0000] "POST /api/v1/books/cart/6214803b05253301a4fda584 HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [15/Jun/2022:18:09:37 +0000] "POST /api/v1/books/cart/6214803b05253301a4fda584 HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [15/Jun/2022:18:09:38 +0000] "POST /api/v1/books/cart/6214803b05253301a4fda584 HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [15/Jun/2022:18:11:10 +0000] "POST /api/v1/books/6214803b05253301a4fda584 HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [15/Jun/2022:18:11:12 +0000] "POST /api/v1/books/6214803b05253301a4fda584 HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [15/Jun/2022:18:11:34 +0000] "POST /api/v1/books/6214803b05253301a4fda584 HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [15/Jun/2022:18:11:35 +0000] "POST /api/v1/books/6214803b05253301a4fda584 HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [15/Jun/2022:18:11:43 +0000] "GET /api/v1/books/6214803b05253301a4fda584 HTTP/1.1" 200 1341 "-" "Thunder Client (https://www.thunderclient.com)"
+

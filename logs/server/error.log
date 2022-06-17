@@ -1,0 +1,155 @@
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token f in JSON at position 6
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:199:9)
+    at invokeCallback (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-06-14T11:35:45.387Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token f in JSON at position 6
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:199:9)
+    at invokeCallback (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-06-14T11:37:45.314Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token f in JSON at position 6
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:199:9)
+    at invokeCallback (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-06-14T11:39:43.496Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-06-14T11:40:40.286Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at newUserValidator (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\src\validators\/user.validator.js:16:16)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-06-14T11:51:31.977Z"}
+error: uncaughtException: bookRoute is not defined
+ReferenceError: bookRoute is not defined
+    at routes (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\src\routes\/index.js:15:24)
+    at Object.<anonymous> (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\src\/index.js:32:32)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {"date":"Tue Jun 14 2022 17:32:23 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1320585},"process":{"argv":["node","C:\\Users\\anand\\Desktop\\Coder\\BookStore\\BookStoreBackEnd\\bookstorebackend\\src\\index.js"],"cwd":"C:\\Users\\anand\\Desktop\\Coder\\BookStore\\BookStoreBackEnd\\bookstorebackend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18953489,"external":31112524,"heapTotal":88821760,"heapUsed":64021664,"rss":122994688},"pid":25052,"uid":null,"version":"v16.13.2"},"stack":"ReferenceError: bookRoute is not defined\n    at routes (C:\\Users\\anand\\Desktop\\Coder\\BookStore\\BookStoreBackEnd\\bookstorebackend\\src\\routes\\/index.js:15:24)\n    at Object.<anonymous> (C:\\Users\\anand\\Desktop\\Coder\\BookStore\\BookStoreBackEnd\\bookstorebackend\\src\\/index.js:32:32)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\Users\\anand\\Desktop\\Coder\\BookStore\\BookStoreBackEnd\\bookstorebackend\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\Users\\anand\\Desktop\\Coder\\BookStore\\BookStoreBackEnd\\bookstorebackend\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\Users\\anand\\Desktop\\Coder\\BookStore\\BookStoreBackEnd\\bookstorebackend\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:17:47","timestamp":"2022-06-14T12:02:24.007Z","trace":[{"column":24,"file":"C:\\Users\\anand\\Desktop\\Coder\\BookStore\\BookStoreBackEnd\\bookstorebackend\\src\\routes\\/index.js","function":"routes","line":15,"method":null,"native":false},{"column":32,"file":"C:\\Users\\anand\\Desktop\\Coder\\BookStore\\BookStoreBackEnd\\bookstorebackend\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\anand\\Desktop\\Coder\\BookStore\\BookStoreBackEnd\\bookstorebackend\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\Users\\anand\\Desktop\\Coder\\BookStore\\BookStoreBackEnd\\bookstorebackend\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\anand\\Desktop\\Coder\\BookStore\\BookStoreBackEnd\\bookstorebackend\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-06-14T13:05:34.010Z"}
+error: Could not connect to the database. connect ECONNREFUSED 127.0.0.1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017\n    at NativeConnection.Connection.openUri (C:\\Users\\anand\\Desktop\\Coder\\BookStore\\BookStoreBackEnd\\bookstorebackend\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\anand\\Desktop\\Coder\\BookStore\\BookStoreBackEnd\\bookstorebackend\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\anand\\Desktop\\Coder\\BookStore\\BookStoreBackEnd\\bookstorebackend\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\anand\\Desktop\\Coder\\BookStore\\BookStoreBackEnd\\bookstorebackend\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\anand\\Desktop\\Coder\\BookStore\\BookStoreBackEnd\\bookstorebackend\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\anand\\Desktop\\Coder\\BookStore\\BookStoreBackEnd\\bookstorebackend\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (C:\\Users\\anand\\Desktop\\Coder\\BookStore\\BookStoreBackEnd\\bookstorebackend\\src\\config\\/database.js:12:20)\n    at tryCatch (C:\\Users\\anand\\Desktop\\Coder\\BookStore\\BookStoreBackEnd\\bookstorebackend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\anand\\Desktop\\Coder\\BookStore\\BookStoreBackEnd\\bookstorebackend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.next (C:\\Users\\anand\\Desktop\\Coder\\BookStore\\BookStoreBackEnd\\bookstorebackend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\anand\\Desktop\\Coder\\BookStore\\BookStoreBackEnd\\bookstorebackend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\anand\\Desktop\\Coder\\BookStore\\BookStoreBackEnd\\bookstorebackend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at C:\\Users\\anand\\Desktop\\Coder\\BookStore\\BookStoreBackEnd\\bookstorebackend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at C:\\Users\\anand\\Desktop\\Coder\\BookStore\\BookStoreBackEnd\\bookstorebackend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12","timestamp":"2022-06-16T05:36:36.535Z"}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\express\lib\router\index.js:469:13)
+    at routes (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\src\routes\/index.js:18:10)
+    at Object.<anonymous> (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\src\/index.js:32:32)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12) {"date":"Thu Jun 16 2022 14:31:45 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":15208},"process":{"argv":["node","C:\\Users\\anand\\Desktop\\Coder\\BookStore\\BookStoreBackEnd\\bookstorebackend\\src\\index.js"],"cwd":"C:\\Users\\anand\\Desktop\\Coder\\BookStore\\BookStoreBackEnd\\bookstorebackend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18815364,"external":31289318,"heapTotal":90394624,"heapUsed":61828336,"rss":124760064},"pid":11568,"uid":null,"version":"v16.13.2"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (C:\\Users\\anand\\Desktop\\Coder\\BookStore\\BookStoreBackEnd\\bookstorebackend\\node_modules\\express\\lib\\router\\index.js:469:13)\n    at routes (C:\\Users\\anand\\Desktop\\Coder\\BookStore\\BookStoreBackEnd\\bookstorebackend\\src\\routes\\/index.js:18:10)\n    at Object.<anonymous> (C:\\Users\\anand\\Desktop\\Coder\\BookStore\\BookStoreBackEnd\\bookstorebackend\\src\\/index.js:32:32)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\Users\\anand\\Desktop\\Coder\\BookStore\\BookStoreBackEnd\\bookstorebackend\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\Users\\anand\\Desktop\\Coder\\BookStore\\BookStoreBackEnd\\bookstorebackend\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\Users\\anand\\Desktop\\Coder\\BookStore\\BookStoreBackEnd\\bookstorebackend\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)","timestamp":"2022-06-16T09:01:45.479Z","trace":[{"column":13,"file":"C:\\Users\\anand\\Desktop\\Coder\\BookStore\\BookStoreBackEnd\\bookstorebackend\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"C:\\Users\\anand\\Desktop\\Coder\\BookStore\\BookStoreBackEnd\\bookstorebackend\\src\\routes\\/index.js","function":"routes","line":18,"method":null,"native":false},{"column":32,"file":"C:\\Users\\anand\\Desktop\\Coder\\BookStore\\BookStoreBackEnd\\bookstorebackend\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\anand\\Desktop\\Coder\\BookStore\\BookStoreBackEnd\\bookstorebackend\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\Users\\anand\\Desktop\\Coder\\BookStore\\BookStoreBackEnd\\bookstorebackend\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\anand\\Desktop\\Coder\\BookStore\\BookStoreBackEnd\\bookstorebackend\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false}]}
+error: uncaughtException: HttpStatus is not defined
+ReferenceError: HttpStatus is not defined
+    at _callee$ (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\src\controllers\/cart.controller.js:14:18)
+    at tryCatch (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Thu Jun 16 2022 14:56:17 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":16680},"process":{"argv":["node","C:\\Users\\anand\\Desktop\\Coder\\BookStore\\BookStoreBackEnd\\bookstorebackend\\src\\index.js"],"cwd":"C:\\Users\\anand\\Desktop\\Coder\\BookStore\\BookStoreBackEnd\\bookstorebackend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18298697,"external":19837463,"heapTotal":50024448,"heapUsed":45784368,"rss":83611648},"pid":17160,"uid":null,"version":"v16.13.2"},"stack":"ReferenceError: HttpStatus is not defined\n    at _callee$ (C:\\Users\\anand\\Desktop\\Coder\\BookStore\\BookStoreBackEnd\\bookstorebackend\\src\\controllers\\/cart.controller.js:14:18)\n    at tryCatch (C:\\Users\\anand\\Desktop\\Coder\\BookStore\\BookStoreBackEnd\\bookstorebackend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\anand\\Desktop\\Coder\\BookStore\\BookStoreBackEnd\\bookstorebackend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.next (C:\\Users\\anand\\Desktop\\Coder\\BookStore\\BookStoreBackEnd\\bookstorebackend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\anand\\Desktop\\Coder\\BookStore\\BookStoreBackEnd\\bookstorebackend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\anand\\Desktop\\Coder\\BookStore\\BookStoreBackEnd\\bookstorebackend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2022-06-16T09:26:17.151Z","trace":[{"column":18,"file":"C:\\Users\\anand\\Desktop\\Coder\\BookStore\\BookStoreBackEnd\\bookstorebackend\\src\\controllers\\/cart.controller.js","function":"_callee$","line":14,"method":null,"native":false},{"column":17,"file":"C:\\Users\\anand\\Desktop\\Coder\\BookStore\\BookStoreBackEnd\\bookstorebackend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":86,"method":null,"native":false},{"column":24,"file":"C:\\Users\\anand\\Desktop\\Coder\\BookStore\\BookStoreBackEnd\\bookstorebackend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator._invoke","line":66,"method":"_invoke","native":false},{"column":21,"file":"C:\\Users\\anand\\Desktop\\Coder\\BookStore\\BookStoreBackEnd\\bookstorebackend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":117,"method":"next","native":false},{"column":24,"file":"C:\\Users\\anand\\Desktop\\Coder\\BookStore\\BookStoreBackEnd\\bookstorebackend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\anand\\Desktop\\Coder\\BookStore\\BookStoreBackEnd\\bookstorebackend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":25,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token f in JSON at position 6
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:199:9)
+    at invokeCallback (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\Coder\BookStore\BookStoreBackEnd\bookstorebackend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/ 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-06-16T09:31:57.629Z"}
